@@ -1,8 +1,24 @@
 aid: kanghui-medical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kanghui-medical.png
 name: Kanghui Medical
-description: 'Kanghui Medical is a company surfaced as a portfolio company of idg-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Kanghui Medical (Changzhou Kanghui Medical Innovation Co., Ltd.), founded in 1997 and headquartered
+  in Changzhou, Jiangsu Province, China, is an orthopedic medical device manufacturer focused on the R&D
+  and production of trauma and spine implants and instruments, plus professional surgical education and
+  services across China and emerging markets. Formerly China Kanghui Holdings (NYSE: KH), it was acquired
+  by Medtronic in 2012 and now operates as a Medtronic company. This is a corporate/physical-device provider
+  with a public marketing website but no public developer portal, API documentation, or API surface; the
+  profile is maintained as an API Evangelist network company record.'
 url: https://raw.githubusercontent.com/api-evangelist/kanghui-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Orthopedics
+- Trauma
+- Spine
+- Implants
+- Medtronic
+- China
+common:
+- type: Website
+  url: https://en.kanghui-med.com/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
