@@ -51,6 +51,11 @@ tags:
 - Medtronic
 - China
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/medtronic/
+  name: Medtronic
+  x-relationship: acquired
+  x-evidence: "Formerly China Kanghui Holdings (NYSE: KH), it was acquired by Medtronic in 2012 and now operates as a Medtronic company."
 - type: Website
   url: https://en.kanghui-med.com/
 apis: []
